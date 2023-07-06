@@ -1,0 +1,73 @@
+/* Navbar Component */
+.Content_Navbar {
+ @apply bg-emerald-100 z-50;
+}
+.Navbar {
+ @apply py-5 lg:px-16 px-4 flex flex-col lg:flex-row lg:items-center lg:justify-between;
+}
+.Content_Items {
+ @apply flex lg:flex-row flex-col absolute lg:static  items-center gap-y-8 lg:gap-x-8 font-inter text-sm py-10 lg:py-0 lg:w-auto  bg-emerald-100  transition-all ease-in z-10 lg:z-auto duration-300 lg:pb-0 pb-96 left-0 w-full;
+}
+.Item {
+ @apply hover:text-primary transition-all cursor-pointer text-slate-800;
+}
+.Button_Login {
+ @apply border border-primary bg-emerald-100 text-slate-800 hover:text-primary rounded-lg px-5  py-2 font-inter text-sm active:scale-90 transition-all;
+}
+.Button_Register {
+ @apply bg-primary text-white rounded-lg py-2 px-5 font-inter text-sm active:scale-90 transition-all hover:bg-green-600;
+}
+
+/* Hero Components */
+.Content_Hero {
+ @apply lg:h-[580px] h-auto bg-emerald-100 lg:flex lg:justify-between lg:px-16 lg:mt-0 pt-1 relative;
+}
+.Title_Hero {
+ @apply lg:text-5xl text-3xl font-poppins lg:w-[500px] text-slate-950;
+}
+.Description_Hero {
+ @apply font-inter pt-3 pb-6 text-slate-800;
+}
+.Button_Get_Started {
+ @apply bg-primary text-white rounded-lg py-3 px-5 font-inter text-sm active:scale-90 transition-all hover:bg-green-600;
+}
+.Image_Hero {
+ @apply lg:w-[550px] lg:h-[480px] mx-auto lg:mx-0 pt-5 lg:pt-0;
+}
+
+/*Section Components */
+.Section_Subtitle {
+ @apply text-primary font-inter text-sm uppercase;
+}
+.Section_Description {
+ @apply font-poppins text-xl mt-3 text-slate-950;
+}
+.Content_All_Icons {
+ @apply mt-32 grid lg:grid-cols-4 grid-cols-2 justify-items-center lg:px-24 px-5;
+}
+.Content_Section_Icon {
+ @apply lg:px-10 py-10 lg:py-0;
+}
+.Title_Section {
+ @apply text-xs font-inter text-slate-700 pt-2;
+}
+.Section_Data {
+ @apply text-primary block text-center mt-5 text-xl font-bold;
+}
+
+/* Card Components */
+.Content_Cards {
+ @apply mt-16 grid lg:grid-cols-3 justify-items-center;
+}
+.Content_Icon {
+ @apply p-3 bg-[#D7F5DC] w-12 rounded-lg;
+}
+.Card_Title {
+ @apply text-slate-950 text-lg font-poppins py-3;
+}
+.Card_Link {
+ @apply mt-10 font-inter flex items-center gap-x-3 cursor-pointer text-sm pl-3 hover:text-primary transition-all;
+}
+.Animation_Icon {
+ @apply group-hover:translate-x-1 transition-all;
+}
